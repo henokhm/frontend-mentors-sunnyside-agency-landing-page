@@ -1,7 +1,6 @@
 import React from "react";
 
 function Testimonial({ author, position, body }) {
-  console.log({ author, position, body });
   return (
     <div>
       <h3>{author}</h3>
