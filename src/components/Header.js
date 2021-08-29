@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components/macro";
 
 import Hamburger from "./Hamburger";
@@ -60,12 +60,17 @@ const StyledArrowDown = styled.img`
 `;
 
 function Header() {
+  const [isHamburgerMenuOpen, setIsHamburgerMenuOpen] = useState(false);
+  const toggleHamburgerMenu = () => {
+    setIsHamburgerMenuOpen((prevState) => !prevState);
+  };
+
   return (
     <StyledPageHeader>
       <StyledTopBar>
         <SunnysideLogo />
-        <Hamburger />
-        <Navbar />
+        <Hamburger toggleHamburgerMenu={toggleHamburgerMenu} />
+        <Navbar isHamburgerMenuOpen={isHamburgerMenuOpen} />
       </StyledTopBar>
       <StyledHeadline>We are creatives</StyledHeadline>
       <StyledArrowDown src={arrowDownSVG} alt="arrow down icon" />

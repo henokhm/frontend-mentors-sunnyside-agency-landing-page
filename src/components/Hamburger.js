@@ -19,8 +19,14 @@ const StyledHamburgerSvg = styled.img`
   }
 `;
 
-function Hamburger() {
-  return <StyledHamburgerSvg src={hamburgerSVG} alt="hamburger icon" />;
+function Hamburger({ toggleHamburgerMenu }) {
+  return (
+    <StyledHamburgerSvg
+      src={hamburgerSVG}
+      alt="hamburger icon"
+      onClick={toggleHamburgerMenu}
+    />
+  );
 }
 
 export default Hamburger;
