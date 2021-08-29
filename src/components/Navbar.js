@@ -41,8 +41,8 @@ const StyledNav = styled.nav`
 
   @media (min-width: 651px) {
     display: unset;
+    position: unset;
     width: auto;
-    top: 0;
     margin: 0;
     padding: 0;
     transform: unset;
@@ -50,10 +50,11 @@ const StyledNav = styled.nav`
 
     & ul {
       flex-direction: row;
+      margin: 0;
       // align-items: center;
   
       & li {
-        padding: 0 1.5em 0 0;
+        padding: 0 0  0 1.5em;
         color: var(--white);
   
         &:hover,

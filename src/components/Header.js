@@ -8,18 +8,6 @@ import heroImageMobile from "../images/mobile/image-header.jpg";
 import { ReactComponent as SunnysideLogo } from "../images/logo.svg";
 import arrowDownSVG from "../images/icon-arrow-down.svg";
 
-const StyledHeadline = styled.h1`
-  font-family: var(--ff-secondary);
-  font-weight: 900;
-  font-size: 2.5em;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  line-height: 1.2em;
-  color: var(--white);
-  text-align: center;
-  margin-top: 2.5em;
-`;
-
 const StyledPageHeader = styled.header`
   padding: 1em;
   background-image: url(${heroImageMobile});
@@ -50,6 +38,18 @@ const StyledTopBar = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+`;
+
+const StyledHeadline = styled.h1`
+  font-family: var(--ff-secondary);
+  font-weight: 900;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+  color: var(--white);
+  text-align: center;
+  margin-top: 2.5em;
 `;
 
 const StyledArrowDown = styled.img`
