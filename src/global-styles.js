@@ -1,9 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-  @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
- 
   *,
   *::before,
   *::after {
@@ -11,6 +8,9 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   :root {
+    --ff-primary: 'Barlow', sans-serif;
+    --ff-secondary: 'Fraunces', serif;
+
     /* Primary colors */
     --soft-red: hsl(7, 99%, 70%);
     --yellow: hsl(51, 100%, 49%);
@@ -28,7 +28,9 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     margin: 0;
-    font-family: "Barlow", sans-serif;
+    min-width: 375px;
+    max-width: 1440p;
+    font-family: var(--ff-primary);
     font-size: 18px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
