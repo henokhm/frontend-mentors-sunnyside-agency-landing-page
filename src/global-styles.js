@@ -27,7 +27,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    margin: 0;
+    margin: 0 auto;
     min-width: 375px;
     max-width: 1440px;
     font-family: var(--ff-primary);

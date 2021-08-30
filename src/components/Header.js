@@ -15,6 +15,7 @@ const StyledPageHeader = styled.header`
   background-size: cover;
   background-position: bottom center;
   height: 90vh;
+  width: 100%; /* Can you make the hero image 100vw?  */
   position: relative;
 
   @media (min-width: 430px) {
