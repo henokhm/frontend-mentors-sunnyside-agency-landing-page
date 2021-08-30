@@ -33,10 +33,10 @@ function Jumbotron({
         <a href="#">{ctaText}</a>
       </StyledContents>
       <StyledImage
-        src={imageURLDesktop}
+        src={`${process.env.PUBLIC_URL}${imageURLDesktop}`}
         srcset={`
-            ${imageURLMobile}  651w,
-            ${imageURLDesktop} 1440w
+            ${`${process.env.PUBLIC_URL}${imageURLMobile}`}  651w,
+            ${`${process.env.PUBLIC_URL}${imageURLDesktop}`} 1440w
           `}
         alt={imageAlt}
       />
