@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "header": "Graphic design",
+    "body": "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.",
+    "imageURLDesktop": "../images/desktop/image-graphic-design.jpg",
+    "imageURLMobile": "../images/mobile/image-graphic-design.jpg"
+  },
+  {
+    "id": 2,
+    "header": "Photography",
+    "body": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image.",
+    "imageURLDesktop": "../images/desktop/image-photography.jpg",
+    "imageURLMobile": "../images/mobile/image-photography.jpg"
+  }
+]
