@@ -29,7 +29,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     margin: 0;
     min-width: 375px;
-    max-width: 1440p;
+    max-width: 1440px;
     font-family: var(--ff-primary);
     font-size: 18px;
     -webkit-font-smoothing: antialiased;
