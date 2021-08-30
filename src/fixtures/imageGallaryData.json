@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "imageURLDesktop": "./images/desktop/image-gallery-milkbottles.jpg",
+    "imageURLMobile": "./images/mobile/image-gallery-milkbottles.jpg",
+    "imageAlt": "an egg"
+  }, 
+  {
+    "id": 2,
+    "imageURLDesktop": "./images/desktop/image-gallery-orange.jpg",
+    "imageURLMobile": "./images/mobile/image-gallery-orange.jpg",
+    "imageAlt": "an egg"
+  }, 
+  {
+    "id": 3,
+    "imageURLDesktop": "./images/desktop/image-gallery-cone.jpg",
+    "imageURLMobile": "./images/mobile/image-gallery-cone.jpg",
+    "imageAlt": "an egg"
+  },
+  {
+    "id": 4,
+    "imageURLDesktop": "./images/desktop/image-gallery-sugarcubes.jpg",
+    "imageURLMobile": "./images/mobile/image-gallery-sugarcubes.jpg",
+    "imageAlt": "an egg"
+  }
+]
