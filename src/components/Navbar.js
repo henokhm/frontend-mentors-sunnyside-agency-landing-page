@@ -46,6 +46,7 @@ const StyledNav = styled.nav`
     margin: 0;
     padding: 0;
     transform: unset;
+    clip-path: unset;
     background-color: transparent;
 
     & ul {
