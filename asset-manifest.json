@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/frontend-mentors-sunnyside-agency-landing-page/static/js/main.dab7cde9.chunk.js",
+    "main.js.map": "/frontend-mentors-sunnyside-agency-landing-page/static/js/main.dab7cde9.chunk.js.map",
+    "runtime-main.js": "/frontend-mentors-sunnyside-agency-landing-page/static/js/runtime-main.4d07e37d.js",
+    "runtime-main.js.map": "/frontend-mentors-sunnyside-agency-landing-page/static/js/runtime-main.4d07e37d.js.map",
+    "static/js/2.6298e2ef.chunk.js": "/frontend-mentors-sunnyside-agency-landing-page/static/js/2.6298e2ef.chunk.js",
+    "static/js/2.6298e2ef.chunk.js.map": "/frontend-mentors-sunnyside-agency-landing-page/static/js/2.6298e2ef.chunk.js.map",
+    "index.html": "/frontend-mentors-sunnyside-agency-landing-page/index.html",
+    "static/js/2.6298e2ef.chunk.js.LICENSE.txt": "/frontend-mentors-sunnyside-agency-landing-page/static/js/2.6298e2ef.chunk.js.LICENSE.txt",
+    "static/media/icon-arrow-down.979ef07a.svg": "/frontend-mentors-sunnyside-agency-landing-page/static/media/icon-arrow-down.979ef07a.svg",
+    "static/media/icon-hamburger.7764b7eb.svg": "/frontend-mentors-sunnyside-agency-landing-page/static/media/icon-hamburger.7764b7eb.svg",
+    "static/media/image-header.49b52ffa.jpg": "/frontend-mentors-sunnyside-agency-landing-page/static/media/image-header.49b52ffa.jpg",
+    "static/media/image-header.9167cda0.jpg": "/frontend-mentors-sunnyside-agency-landing-page/static/media/image-header.9167cda0.jpg",
+    "static/media/logo.4271b899.svg": "/frontend-mentors-sunnyside-agency-landing-page/static/media/logo.4271b899.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d07e37d.js",
+    "static/js/2.6298e2ef.chunk.js",
+    "static/js/main.dab7cde9.chunk.js"
+  ]
+}
